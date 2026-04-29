@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/api", "destination": "/api/analyze" },
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/:path((?!api).*)", "destination": "/:path" }
+  ],
+  "functions": {
+    "api/**/*.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}

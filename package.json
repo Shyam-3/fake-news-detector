@@ -1,0 +1,25 @@
+{
+  "name": "truthlens-fake-news-detector",
+  "version": "1.0.0",
+  "description": "Fake News Detection on Social Media using Deep Learning & Groq AI",
+  "main": "api/analyze.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "vercel-build": "echo 'static build'"
+  },
+  "keywords": [
+    "fake-news",
+    "deep-learning",
+    "nlp",
+    "groq",
+    "cloud-api",
+    "vercel"
+  ],
+  "author": "TruthLens",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
